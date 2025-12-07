@@ -1,0 +1,8 @@
+,net_pnl,net_pnl,win_rate,total_volume
+,mean,count,mean,sum
+classification,,,,
+Extreme Fear,133.3314,33,0.1735,9580240.04
+Extreme Greed,3391.9351,112,0.3356,16475952.76
+Fear,4321.7162,157,0.3443,69785656.94
+Greed,2024.4647,190,0.3483,48556681.3
+Neutral,1861.3997,37,0.3125,11762845.92
