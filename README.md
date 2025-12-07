@@ -3,7 +3,7 @@
 This project analyzes the relationship between the Bitcoin Fear & Greed Index and trader‑level performance, and builds models to predict whether a trader’s day will be profitable based on sentiment and trading behavior.
 
 ## Project Structure
-
+<code>```
 .
 ├── csv_files/
 │   ├── fear_greed_index.csv               # Raw sentiment data
@@ -31,6 +31,7 @@ This project analyzes the relationship between the Bitcoin Fear & Greed Index an
 ├── notebook_2.ipynb                       # Modeling and evaluation
 ├── ds_report.pdf                          # Final report (assignment deliverable)
 └── README.md
+</code>
 
 ## Objective
 
@@ -124,3 +125,4 @@ All paths assume the repository is run from the project root.
 - Incorporate additional on‑chain or order book features.
 
 - Package the best model behind a simple API or interactive dashboard.
+
