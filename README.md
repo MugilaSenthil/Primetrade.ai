@@ -6,32 +6,31 @@ This project analyzes the relationship between the Bitcoin Fear & Greed Index an
 
 .
 ├── csv_files/
-│ ├── fear_greed_index.csv # Raw sentiment data
-│ ├── historical_data.csv # Raw trader‑level trade history
-│ ├── trader_daily_agg.csv # Per‑account, per‑day features
-│ ├── top_trader_daily.csv # Filtered subset: consistent profitable traders
-│ ├── executive_summary.csv # Aggregated metrics by sentiment regime
-│ └── model_predictions.csv # Test‑set predictions from ML models
+│   ├── fear_greed_index.csv               # Raw sentiment data
+│   ├── historical_data.csv                # Raw trader-level trade history
+│   ├── trader_daily_agg.csv               # Per-account, per-day features
+│   ├── top_trader_daily.csv               # Filtered subset: consistent profitable traders
+│   ├── executive_summary.csv              # Aggregated metrics by sentiment regime
+│   └── model_predictions.csv              # Test-set predictions from ML models
 │
 ├── models/
-│ ├── lr_profitable_day.pkl # Logistic Regression model
-│ ├── xgb_profitable_day.pkl # Gradient Boosting (“XGBoost‑style”) model
-│ └── scaler.pkl # Feature scaler used during training
+│   ├── lr_profitable_day.pkl              # Logistic Regression model
+│   ├── xgb_profitable_day.pkl             # XGBoost-style Gradient Boosting model
+│   └── scaler.pkl                         # Feature scaler used during training
 │
 ├── outputs/
-│ ├── sentiment_over_time.png
-│ ├── performance_by_sentiment.png
-│ ├── avg_daily_pnl_by_sentiment.png
-│ ├── avg_leverage_by_sentiment.png
-│ ├── win_rate_by_sentiment.png
-│ ├── xgb_feature_importance.png
-│ └── model_insights.png
+│   ├── sentiment_over_time.png
+│   ├── performance_by_sentiment.png
+│   ├── avg_daily_pnl_by_sentiment.png
+│   ├── avg_leverage_by_sentiment.png
+│   ├── win_rate_by_sentiment.png
+│   ├── xgb_feature_importance.png
+│   └── model_insights.png
 │
-├── notebook_1.ipynb # EDA + feature engineering
-├── notebook_2.ipynb # Modeling and evaluation
-├── ds_report.pdf # Final report (assignment deliverable)
-└── README.md 
-
+├── notebook_1.ipynb                       # EDA + feature engineering
+├── notebook_2.ipynb                       # Modeling and evaluation
+├── ds_report.pdf                          # Final report (assignment deliverable)
+└── README.md
 
 ## Objective
 
@@ -123,4 +122,5 @@ All paths assume the repository is run from the project root.
 
 - Add hyperparameter tuning and calibration plots.
 - Incorporate additional on‑chain or order book features.
+
 - Package the best model behind a simple API or interactive dashboard.
