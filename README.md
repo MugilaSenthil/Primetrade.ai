@@ -31,7 +31,7 @@ This project analyzes the relationship between the Bitcoin Fear & Greed Index an
 ├── notebook_2.ipynb                       # Modeling and evaluation
 ├── ds_report.pdf                          # Final report (assignment deliverable)
 └── README.md
-</code>
+</code>```
 
 ## Objective
 
@@ -125,4 +125,5 @@ All paths assume the repository is run from the project root.
 - Incorporate additional on‑chain or order book features.
 
 - Package the best model behind a simple API or interactive dashboard.
+
 
